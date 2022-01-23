@@ -7,7 +7,7 @@ https://boardgames.stackexchange.com/questions/38366/latest-collins-scrabble-wor
 My initial goal was to develop a wordle solver, instead you'll find:
 
 - `python3 search.py` will return sequences of five five letters words that cover the 24 most frequent letters;
-- `python3 wordle.py (easy|normal|cursed)` will let you play wordle with three different difficult levels (it is kind of cheating as it chooses the target word according to your guesses), it turns out the cursed version has already been done by [qntm](https://qntm.org/files/wordle/index.html));
+- `python3 wordle.py (easy|normal|cursed)` will let you play wordle with three different difficult levels (it is kind of cheating as it chooses the target word according to your guesses), it turns out the cursed version has already been done by [qntm](https://qntm.org/files/wordle/index.html);
 - and finally `python3 eldrow.py` which is, to me, the most interesting (or least pedestrian).
 
 # Eldrow: reversed wordle
