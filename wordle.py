@@ -177,7 +177,7 @@ def play(
         print("".join(mask), sorted(guessed_letters))
 
         remaining_words = {w for w in remaining_words if is_valid(w, hint, guess)}
-        print(list(remaining_words)[:5])
+        # print(list(remaining_words)[:5])
         # print(len(remaining_words))
         # if len(remaining_words) < 5:
         #     print(remaining_words)
